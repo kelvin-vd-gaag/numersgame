@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+    <button id="number-generator" onclick="number_generator()">Click to start</button>
+    <div class="buttons">
+        <button id="1" onclick="place_number(1)">1</button>
+        <button id="2" onclick="place_number(2)">2</button>
+        <button id="3" onclick="place_number(3)">3</button>
+        <button id="4" onclick="place_number(4)">4</button>
+        <button id="5" onclick="place_number(5)">5</button>
+    </div>
+    <div class="error" id="error">
+
+    </div>
+    <ol id="list">
+        <li id="1-list"></li>
+        <li id="2-list"></li>
+        <li id="3-list"></li>
+        <li id="4-list"></li>
+        <li id="5-list"></li>
+    </ol>
+</div>
+<script src="main.js"></script>
+
+</body>
+</html>

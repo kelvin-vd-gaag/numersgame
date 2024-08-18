@@ -1,0 +1,41 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#number-generator{
+  background-color: lightblue;
+  border: none;
+  min-width: fit-content;
+  width: 300px;
+  margin: 0 auto;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+.buttons{
+  margin: 0 auto;
+  padding: 1em;
+  button{
+    padding: 1em;
+    cursor: pointer;
+  }
+}
+
+#list{
+  margin: 0 auto;
+  li{
+    background-color: lightblue;
+  }
+}
+
+.error{
+  display: none;
+  width: 300px;
+  background-color: red;
+  color: white;
+  padding: 1em 2em;
+  margin: 0 auto;
+}
